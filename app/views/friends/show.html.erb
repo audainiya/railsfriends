@@ -1,0 +1,11 @@
+
+<div class="jumbotron">
+<%= render @friend %>
+
+
+  
+  <%= link_to "Edit this friend", edit_friend_path(@friend),class: "btn btn-secondary" %>
+  <%= button_to "Delete", @friend, method: :delete ,class: "btn btn-outline-danger btn-sm"%>
+<%= link_to "Back to friends", friends_path ,class: "btn btn-secondary"%>
+</div>
+ 
